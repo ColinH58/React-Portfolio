@@ -22,12 +22,6 @@ const Navbar = () => {
       ph: "Projects",
       display: true,
     },
-    {
-      key: "Contact",
-      route: "/Contact",
-      ph: "Contact",
-      display: true,
-    },
   ];
   return (
     <div>

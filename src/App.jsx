@@ -7,7 +7,6 @@ import {
   Blog,
   Resume,
   Projects,
-  Contact,
 } from "./Components/index";
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
         <Route path="/Blog" element={<Blog />} />
         <Route path="/Resume" element={<Resume />} />
         <Route path="/Projects" element={<Projects />} />
-        <Route path="/Contact" element={<Contact />} />
       </Routes>
     </div>
   );
