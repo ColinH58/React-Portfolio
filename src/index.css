@@ -47,6 +47,14 @@ hr {
   height: 100vh;
   margin: -10px;
   margin-bottom: -60px;
+  overflow: hidden;
+}
+
+.HomePage {
+  width: 100vw;
+  height: 75vh;
+  align-items: center;
+  margin-top: -50px;
 }
 
 #MyName,
@@ -152,19 +160,6 @@ h1,
 li {
   margin-bottom: 15px;
   width: 85vw;
-}
-
-footer {
-  font-size: 1.75rem;
-  font-weight: bold;
-  width: 100vw;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  padding: 15px;
-  background: hsla(52.2, 22.9%, 53.7%, 100%);
-  position: fixed;
-  bottom: 0;
 }
 
 /* Link, Button, and Input Field Rules */

@@ -1,8 +1,10 @@
 import React from "react";
+import Navbar from "./Navbar";
 
 const Projects = () => {
   return (
     <>
+    <Navbar />
       <div className="Projects">
         <h2>Projects Deployed on Netlify or Heroku</h2>
         <div className="ProjectList">

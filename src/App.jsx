@@ -3,7 +3,6 @@ import { Routes, Route } from "react-router-dom";
 import "./index.css";
 import {
   Home,
-  Navbar,
   Blog,
   Resume,
   Projects,
@@ -12,7 +11,6 @@ import {
 function App() {
   return (
     <div>
-      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Blog" element={<Blog />} />

@@ -1,9 +1,11 @@
 import React from "react";
-import selfie from '../Assets/Selfie.jpg'
+import selfie from "../Assets/Selfie.jpg";
+import Navbar from "./Navbar";
 
 const Resume = () => {
   return (
     <>
+      <Navbar />
       <img id="selfie" src={selfie} alt="selfie of Colin Hoolwerf" />
       <div className="AboutSection">
         <h1>
@@ -25,6 +27,26 @@ const Resume = () => {
           <li>
             Originally from Calgary, Alberta, I'm a dual citizen of Canada and
             the US. I was naturalized in Irving, Texas in the summer of 2011.
+          </li>
+        </ul>
+        <ul>
+          <li>
+            Find my {' '}
+            <a
+              href="https://github.com/ColinH58"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub Here
+            </a>
+            {' '} and my {' '}
+            <a
+              href="https://www.linkedin.com/in/colinhoolwerf/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn Here
+            </a>
           </li>
         </ul>
       </div>
