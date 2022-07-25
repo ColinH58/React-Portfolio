@@ -8,25 +8,25 @@ const Home = () => {
       key: "Blog",
       route: "/Blog",
       ph: "Blog",
-      display: true,
+      internal: true,
     },
     {
       key: "Resume",
       route: "/Resume",
       ph: "Resume",
-      display: true,
+      internal: true,
     },
     {
       key: "Projects",
       route: "/Projects",
       ph: "Projects",
-      display: true,
+      internal: true,
     },
     {
       key: "Contact",
-      route: { pathname: "https://www.linkedin.com/in/colinhoolwerf/" },
+      route: "https://www.linkedin.com/in/colinhoolwerf/",
       ph: "Contact",
-      display: true,
+      internal: false,
     },
   ];
   return (
@@ -34,18 +34,26 @@ const Home = () => {
       <div className="HomePage">
         <h1 id="MyName">Colin Hoolwerf</h1>
         <div className="Links">
-        {links.map((link) => {
-          const { key, route, ph, display } = link;
-          if (display === true) {
-            return (
-              <div key={key}>
-                <Link to={route}>{ph}</Link>
-              </div>
-            );
-          }
-        })}
-    </div>
-    </div>
+          {links.map((link) => {
+            const { key, route, ph, internal } = link;
+            if (internal === true) {
+              return (
+                <div key={key}>
+                  <Link to={route}>{ph}</Link>
+                </div>
+              );
+            } else {
+              return (
+                <div key={key}>
+                  <a href={route} target="_blank" rel="noreferrer">
+                    {ph}
+                  </a>
+                </div>
+              );
+            }
+          })}
+        </div>
+      </div>
     </div>
   );
 };
