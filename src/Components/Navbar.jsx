@@ -24,7 +24,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <div>
+    <div className="Navbar">
       <Link to={"/"}>Home</Link>
       {links.map((link) => {
         const { key, route, ph, display } = link;
