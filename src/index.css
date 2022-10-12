@@ -1,0 +1,266 @@
+html {
+  background-image: url("../public/assets/wallpaper.jpg");
+  background-color: hsla(203.3, 78.8%, 16.7%, 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+div {
+  color: white;
+  font-size: 1.25rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li {
+  margin-bottom: 15px;
+  width: 85vw;
+}
+hr {
+  width: 85vw;
+}
+
+.Navbar {
+  font-size: 1.25rem;
+  font-weight: bold;
+  width: 100vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 20px;
+  background: hsla(52.2, 22.9%, 53.7%, 100%);
+  position: fixed;
+  top: 0;
+}
+
+.HomePage {
+  background-image: url("../public/assets/home.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  margin: -10px;
+  margin-bottom: -60px;
+  color: white;
+}
+
+#MyName,
+.Links {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 1000;
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#MyName {
+  text-shadow: 3px 3px hsla(203.3, 78.8%, 16.7%, 100%);
+  font-size: 4.5rem;
+  margin-top: -50px;
+}
+
+.Links {
+  background-color: hsla(0, 0%, 0%, 75%);
+  margin-top: -400px;
+  width: 100vw;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 300px) {
+  #MyName,
+  .Links {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 1000;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+  }
+}
+
+@media only screen and (max-height: 725px) {
+  #MyName,
+  .Links {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 1000;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+  }
+}
+
+.AboutSetup,
+.CodingJournal {
+  width: 85vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25;
+  margin-top: 50px;
+}
+
+#selfie {
+  padding: 25;
+  width: 25vw;
+  margin-top: 75px;
+  border-radius: 25px;
+}
+
+.AboutSection,
+.ExperienceSection,
+.EducationSection,
+.VolunteerSection {
+  width: 85vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25;
+  margin-top: 50px;
+}
+
+.ResumeIntro {
+  width: 85vw;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.ProjectList {
+  width: 85vw;
+  font-size: 1.5rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 25;
+}
+
+.Projects,
+.Thanks {
+  width: 85vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 25;
+  margin-top: 75px;
+  margin-bottom: 25px;
+}
+
+.Contact {
+  width: 85vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25;
+  margin-top: 75px;
+  margin-bottom: 25px;
+}
+
+.ContactForm {
+  border-radius: 25px;
+  background-color: hsla(52.2, 22.9%, 53.7%, 100%);
+  padding: 50px;
+  margin: 50px;
+  width: 85vw;
+}
+
+a:link {
+  color: hsla(67.3, 98.4%, 50.8%, 100%);
+  text-decoration: none;
+}
+a:visited {
+  color: hsla(67.3, 98.4%, 50.8%, 100%);
+  text-decoration: none;
+}
+a:hover {
+  color: hsla(79.5, 46.4%, 53.1%, 100%);
+  text-decoration: none;
+  transition: color 300ms linear 80ms;
+}
+a:active {
+  color: hsla(163.2, 36.9%, 60.2%, 100%);
+  text-decoration: none;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 85vw;
+  padding: 12px;
+  border: 1px solid hsla(52.2, 22.9%, 53.7%, 100%);
+  border-radius: 25px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: hsla(67.3, 98.4%, 50.8%, 100%);
+  font-family: "Roboto", sans-serif;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: hsla(79.5, 46.4%, 53.1%, 100%);
+  transition: color 300ms linear 80ms;
+}
+
+input[type="submit"]:active {
+  background-color: hsla(163.2, 36.9%, 60.2%, 100%);
+}
+
+button {
+  color: hsla(203.3, 78.8%, 16.7%, 100%);
+  width: 150px;
+  background: hsla(67.3, 98.4%, 50.8%, 100%);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  cursor: pointer;
+  height: 45px;
+}
+
+button:hover {
+  background: hsla(79.5, 46.4%, 53.1%, 100%);
+  text-decoration: none;
+  transition: color 300ms linear 80ms;
+}
+button:active {
+  background: hsla(163.2, 36.9%, 60.2%, 100%);
+  text-decoration: none;
+}
