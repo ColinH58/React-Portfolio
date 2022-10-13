@@ -170,9 +170,9 @@ hr {
 }
 
 .Thanks {
-  width: 50vw;
+  width: 85vw;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: center;
   align-items: center;
   text-align: center;
