@@ -13,7 +13,7 @@ const Contact = () => {
           <input
             type="hidden"
             name="_next"
-            value="https://colinh58.github.io/Portfolio/Thanks"
+            value="https://www.colinhoolwerf.com/Thanks"
           />
           <label for="inputname">Name</label>
           <input

@@ -68,7 +68,7 @@ hr {
 
 #MyName {
   text-shadow: 3px 3px hsla(203.3, 78.8%, 16.7%, 100%);
-  font-size: 4.5rem;
+  font-size: 6rem;
   margin-top: -50px;
 }
 
@@ -79,17 +79,16 @@ hr {
   padding: 10px;
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 400px) {
   #MyName,
   .Links {
     font-family: "Times New Roman", Times, serif;
     font-weight: 1000;
-    font-size: 2rem;
+    font-size: 4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: -25px;
   }
 }
 
@@ -158,12 +157,23 @@ hr {
   padding: 25;
 }
 
-.Projects,
-.Thanks {
+.Projects {
   width: 85vw;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 25;
+  margin-top: 75px;
+  margin-bottom: 25px;
+}
+
+.Thanks {
+  width: 50vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
   align-items: center;
   text-align: center;
   padding: 25;
