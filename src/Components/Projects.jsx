@@ -5,27 +5,9 @@ const Projects = () => {
   return (
     <div className="Projects">
       <Navbar />
-      <h2>Projects Deployed on Netlify or Heroku</h2>
+      <h2>Projects Deployed on Netlify</h2>
       <div className="ProjectList">
         <ul style={{ listStyleType: "none" }}>
-          <li>
-            <a
-              href="https://exotic-animal-shop.herokuapp.com/"
-              rel="noreferrer"
-              target="_blank"
-            >
-              Exotic Animals 'R Us (eCommerce Website)
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://sharp-poitras-b94dad.netlify.app/posts"
-              rel="noreferrer"
-              target="_blank"
-            >
-              Stranger's Things (Craig's List Clone)
-            </a>
-          </li>
           <li>
             <a
               href="https://mystifying-euclid-1fb75d.netlify.app/"
@@ -33,15 +15,6 @@ const Projects = () => {
               target="_blank"
             >
               Art Collector (Harvard Art API)
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://rocky-oasis-30036.herokuapp.com/"
-              rel="noreferrer"
-              target="_blank"
-            >
-              Wizard News (Hacker News Clone)
             </a>
           </li>
           <li>
@@ -69,6 +42,30 @@ const Projects = () => {
               target="_blank"
             >
               Blackjack Game in Vanilla JavaScript
+            </a>
+          </li>
+        </ul>
+        <hr />
+      </div>
+      <h2>Projects Deployed on Heroku</h2>
+      <div className="ProjectList">
+        <ul style={{ listStyleType: "none" }}>
+          <li>
+            <a
+              href="https://exotic-animal-shop.herokuapp.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Exotic Animals 'R Us (eCommerce Website)
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://rocky-oasis-30036.herokuapp.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Wizard News (Hacker News Clone)
             </a>
           </li>
         </ul>

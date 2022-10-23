@@ -97,12 +97,13 @@ hr {
   .Links {
     font-family: "Times New Roman", Times, serif;
     font-weight: 1000;
-    font-size: 2rem;
+    font-size: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: -25px;
+    margin-top: 10px;
+    margin-bottom: 25px;
   }
 }
 
