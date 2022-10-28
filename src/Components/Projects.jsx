@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import { UilReact, UilJavaScript, UilDatabase } from '@iconscout/react-unicons';
+import { UilReact, UilJavaScript, UilDatabase } from "@iconscout/react-unicons";
 
 const Projects = () => {
   return (
@@ -9,7 +9,7 @@ const Projects = () => {
       <h2>Projects Deployed on Netlify</h2>
       <div className="ProjectList">
         <ul style={{ listStyleType: "none" }}>
-        <li>
+          <li>
             <a
               href="https://mystifying-euclid-1fb75d.netlify.app/"
               rel="noreferrer"
@@ -19,9 +19,10 @@ const Projects = () => {
             </a>
             <UilReact className="Icon" />
             <p style={{ fontSize: "1rem" }}>
-              This is my first solo project after graduating from Fullstack Academy. This weather app, made in React,
-              uses the OpenWeatherMap API and the GeoCities API to allow you to search the local weather
-              anywhere on the planet.
+              This is my first solo project after graduating from Fullstack
+              Academy. This weather app, made in <strong>React</strong>, uses
+              the OpenWeatherMap API and the GeoCities API to allow you to
+              search the local weather anywhere on the planet.
             </p>
           </li>
           <li>
@@ -36,7 +37,8 @@ const Projects = () => {
             <p style={{ fontSize: "1rem" }}>
               A project from the Fullstack Academy Bootcamp curriculum, this is
               a website that lets you search for historical artifacts, art, and
-              more using the Harvard API. This project was completed in React.
+              more using the Harvard API. This project was completed in{" "}
+              <strong>React</strong>.
             </p>
           </li>
           <li>
@@ -50,11 +52,11 @@ const Projects = () => {
             <UilJavaScript className="Icon" />
             <p style={{ fontSize: "1rem" }}>
               Another project from the Fullstack Academy Bootcamp curriculum.
-              This is the classic Snake game made in JavaScript. Eat the red
-              square to grow while avoiding your tail and the walls. I added a
-              difficulty slider to increase the Snake speed, as well as a score
-              tracker to keep track of your highscore (for as long as the window
-              is left open).
+              This is the classic Snake game made in <strong>JavaScript</strong>
+              . Eat the red square to grow while avoiding your tail and the
+              walls. I added a difficulty slider to increase the Snake speed, as
+              well as a score tracker to keep track of your highscore (for as
+              long as the window is left open).
             </p>
           </li>
           <li>
@@ -68,11 +70,11 @@ const Projects = () => {
             <UilJavaScript className="Icon" />
             <p style={{ fontSize: "1rem" }}>
               Another project from the Fullstack Academy Bootcamp curriculum. In
-              this game, made with JavaScript, you are given 5 chances to guess
-              a randomly generated number. I added hints that change dynamically
-              with every guess. I also added a hint button that gives you 3
-              answers, one of which is the correct answer, the other two are
-              random numbers.
+              this game, made with <strong>JavaScript</strong>, you are given 5
+              chances to guess a randomly generated number. I added hints that
+              change dynamically with every guess. I also added a hint button
+              that gives you 3 answers, one of which is the correct answer, the
+              other two are random numbers.
             </p>
           </li>
           <li>
@@ -86,9 +88,9 @@ const Projects = () => {
             <UilJavaScript className="Icon" />
             <p style={{ fontSize: "1rem" }}>
               My very first solo project, made before my bootcamp. This is a
-              very basic and simplified version of BlackJack, made in
-              JavaScript. I added "AI" that plays by the same rules a dealer in
-              a casino would.
+              very basic and simplified version of BlackJack, made in{" "}
+              <strong>JavaScript</strong>. I added "AI" that plays by the same
+              rules a dealer in a casino would.
             </p>
           </li>
         </ul>
@@ -109,7 +111,7 @@ const Projects = () => {
             <UilDatabase />
             <p style={{ fontSize: "1rem" }}>
               The final, capstone, project of the Fullstack Academy Bootcamp
-              curriculum. This project was built with React and PostreSQL. This
+              curriculum. This project was built with <strong>React and PostreSQL</strong>. This
               is a faux eCommerce website with a large inventory of exotic and
               mythical animals for purchase. You are able to search and sort the
               inventory. You are able to register an account, login and out, add
@@ -132,7 +134,7 @@ const Projects = () => {
               Another project from the Fullstack Academy Bootcamp curriculum.
               This is a "Hacker News" clone with hardcoded data stored in a
               pseudo backend and displayed in a frontend with Express routes.
-              This project was built using JavaScript, Express, and Volleyball.
+              This project was built using <strong>JavaScript, Express, and Volleyball</strong>.
             </p>
           </li>
         </ul>
