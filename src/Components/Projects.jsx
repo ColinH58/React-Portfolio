@@ -43,6 +43,23 @@ const Projects = () => {
           </li>
           <li>
             <a
+              href="https://colin-hoolwerf-grocery-list.netlify.app/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Grocery List App
+            </a>
+            <UilReact className="Icon" />
+            <p style={{ fontSize: "1rem" }}>
+              A spin on a classic starter app, the to-do list app. This is a
+              very simple grocery list app where you can add items to a list,
+              cross them off as you complete them, and delete them entirely when
+              you're ready to. This starter project was built in{" "}
+              <strong>React</strong>.
+            </p>
+          </li>
+          <li>
+            <a
               href="https://colin-hoolwerf-snake.netlify.app/"
               rel="noreferrer"
               target="_blank"
@@ -111,13 +128,14 @@ const Projects = () => {
             <UilDatabase />
             <p style={{ fontSize: "1rem" }}>
               The final, capstone, project of the Fullstack Academy Bootcamp
-              curriculum. This project was built with <strong>React and PostreSQL</strong>. This
-              is a faux eCommerce website with a large inventory of exotic and
-              mythical animals for purchase. You are able to search and sort the
-              inventory. You are able to register an account, login and out, add
-              animals to your cart, and read about each animal. The website will
-              alert you when you try to add an animal to your cart that you have
-              already added and preserves your cart when you leave or login.
+              curriculum. This project was built with{" "}
+              <strong>React and PostreSQL</strong>. This is a faux eCommerce
+              website with a large inventory of exotic and mythical animals for
+              purchase. You are able to search and sort the inventory. You are
+              able to register an account, login and out, add animals to your
+              cart, and read about each animal. The website will alert you when
+              you try to add an animal to your cart that you have already added
+              and preserves your cart when you leave or login.
             </p>
           </li>
           <li>
@@ -134,7 +152,8 @@ const Projects = () => {
               Another project from the Fullstack Academy Bootcamp curriculum.
               This is a "Hacker News" clone with hardcoded data stored in a
               pseudo backend and displayed in a frontend with Express routes.
-              This project was built using <strong>JavaScript, Express, and Volleyball</strong>.
+              This project was built using{" "}
+              <strong>JavaScript, Express, and Volleyball</strong>.
             </p>
           </li>
         </ul>
