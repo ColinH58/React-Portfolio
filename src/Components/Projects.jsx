@@ -41,7 +41,7 @@ const Projects = () => {
               <strong>React</strong>.
             </p>
           </li>
-          <li>
+          {/* <li>
             <a
               href="https://colin-hoolwerf-grocery-list.netlify.app/"
               rel="noreferrer"
@@ -57,7 +57,7 @@ const Projects = () => {
               you're ready to. This starter project was built in{" "}
               <strong>React</strong>.
             </p>
-          </li>
+          </li> */}
           <li>
             <a
               href="https://colin-hoolwerf-snake.netlify.app/"
