@@ -11,18 +11,19 @@ const Projects = () => {
         <ul style={{ listStyleType: "none" }}>
           <li>
             <a
-              href="https://mystifying-euclid-1fb75d.netlify.app/"
+              href="https://github.com/ColinH58/Weather-App"
               rel="noreferrer"
               target="_blank"
             >
-              Weather App (OpenWeatherMap.org API)
+              COMING SOON: <br></br>
+              Weather App (OpenWeatherMap API)
             </a>
             <UilReact className="Icon" />
             <p style={{ fontSize: "1rem" }}>
               This is my first solo project after graduating from Fullstack
               Academy. This weather app, made in <strong>React</strong>, uses
-              the OpenWeatherMap API and the GeoCities API to allow you to
-              search the local weather anywhere on the planet.
+              the OpenWeatherMap API and the Luxon API to allow you to search
+              the local weather anywhere on the planet.
             </p>
           </li>
           <li>
@@ -39,6 +40,24 @@ const Projects = () => {
               a website that lets you search for historical artifacts, art, and
               more using the Harvard API. This project was completed in{" "}
               <strong>React</strong>.
+            </p>
+          </li>
+          <li>
+            <a
+              href="https://sharp-poitras-b94dad.netlify.app/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Stranger's Things (CRUD App)
+            </a>
+            <UilReact className="Icon" />
+            <p style={{ fontSize: "1rem" }}>
+              The first group project from the Fullstack Academy Bootcamp, this
+              project is a Craig's List clone and uses a class API. This is my
+              first CRUD app and my first app with login and registration
+              functionality. This app allows you to list items for sale, update
+              the item, delete the item, and read all of the items available.
+              This project was completed in <strong>React</strong>.
             </p>
           </li>
           {/* <li>
@@ -113,7 +132,7 @@ const Projects = () => {
         </ul>
         <hr />
       </div>
-      <h2>Projects Deployed on Render</h2>
+      <h2>Projects Deployed on Heroku</h2>
       <div className="ProjectList">
         <ul style={{ listStyleType: "none" }}>
           <li>
