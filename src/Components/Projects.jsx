@@ -44,7 +44,7 @@ const Projects = () => {
           </li>
           <li>
             <a
-              href="https://sharp-poitras-b94dad.netlify.app/"
+              href="https://strangers-things-colin-hoolwerf.netlify.app/"
               rel="noreferrer"
               target="_blank"
             >
@@ -53,8 +53,8 @@ const Projects = () => {
             <UilReact className="Icon" />
             <p style={{ fontSize: "1rem" }}>
               The first group project from the Fullstack Academy Bootcamp, this
-              project is a Craig's List clone and uses a class API. This is my
-              first CRUD app and my first app with login and registration
+              project is a Craig's List/eBay clone and uses a class API. This is
+              my first CRUD app and my first app with login and registration
               functionality. This app allows you to list items for sale, update
               the item, delete the item, and read all of the items available.
               This project was completed in <strong>React</strong>.
