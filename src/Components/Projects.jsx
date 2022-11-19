@@ -28,7 +28,7 @@ const Projects = () => {
           </li>
           <li>
             <a
-              href="https://mystifying-euclid-1fb75d.netlify.app/"
+              href="https://colin-hoolwerf-art-collector.netlify.app/"
               rel="noreferrer"
               target="_blank"
             >
@@ -44,7 +44,7 @@ const Projects = () => {
           </li>
           <li>
             <a
-              href="https://strangers-things-colin-hoolwerf.netlify.app/"
+              href="https://colin-hoolwerf-strangers-things.netlify.app/"
               rel="noreferrer"
               target="_blank"
             >
