@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import { UilReact, UilJavaScript, UilDatabase } from "@iconscout/react-unicons";
+import { UilReact, UilJavaScript } from "@iconscout/react-unicons";
 
 const Projects = () => {
   return (
