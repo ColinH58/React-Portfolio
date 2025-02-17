@@ -20,7 +20,7 @@ const Projects = () => {
             </a>
             <UilReact className="Icon" />
             <p style={{ fontSize: "1rem" }}>
-              This is my first solo project after graduating from Fullstack
+              This is my first project after graduating from Fullstack
               Academy. This weather app, made in <strong>React</strong>, uses
               the OpenWeatherMap API and the Luxon API to allow you to search
               the local weather anywhere on the planet.
