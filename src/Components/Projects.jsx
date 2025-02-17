@@ -9,7 +9,7 @@ const Projects = () => {
       <h2>Projects Deployed on Netlify</h2>
       <div className="ProjectList">
         <ul style={{ listStyleType: "none" }}>
-          <li>
+          {/* <li>
             <a
               href="https://github.com/ColinH58/Weather-App"
               rel="noreferrer"
@@ -25,7 +25,7 @@ const Projects = () => {
               the OpenWeatherMap API and the Luxon API to allow you to search
               the local weather anywhere on the planet.
             </p>
-          </li>
+          </li> */}
           <li>
             <a
               href="https://colin-hoolwerf-art-collector.netlify.app/"
@@ -60,7 +60,7 @@ const Projects = () => {
               This project was completed in <strong>React</strong>.
             </p>
           </li>
-          {/* <li>
+          <li>
             <a
               href="https://colin-hoolwerf-grocery-list.netlify.app/"
               rel="noreferrer"
@@ -76,7 +76,7 @@ const Projects = () => {
               you're ready to. This starter project was built in{" "}
               <strong>React</strong>.
             </p>
-          </li> */}
+          </li>
           <li>
             <a
               href="https://colin-hoolwerf-snake.netlify.app/"
@@ -130,9 +130,9 @@ const Projects = () => {
             </p>
           </li>
         </ul>
-        <hr />
+        {/* <hr /> */}
       </div>
-      <h2>Projects Deployed on Heroku</h2>
+      {/* <h2>Projects Deployed on Heroku</h2>
       <div className="ProjectList">
         <ul style={{ listStyleType: "none" }}>
           <li>
@@ -182,7 +182,7 @@ const Projects = () => {
         <a href="https://github.com/ColinH58" rel="noreferrer" target="_blank">
           My GitHub Profile
         </a>
-      </h2>
+      </h2> */}
     </div>
   );
 };

@@ -7,37 +7,26 @@ const Blog = () => {
         <Navbar />
       <div className="AboutSetup">
         <h2>My Coding Journey</h2>
-        <p>
-          I officially started my coding journey on <b>June 5th, 2021.</b> I had
-          started, and stopped, twice before but this time I was committed! I
-          was ready to change my career and learn a new skill. I started out
-          using Codecademy and YouTube, about 16 weeks in I decided to sign up
-          for a coding boot camp, Fullstack Academy, hosted through the
-          University of Texas at Dallas.
-        </p>
+        <p>I've been learning to code off and on since <b>February 2020</b>. When I found myself suddenly stuck at home I had the perfect excuse to learn to code. I've always been drawn to the idea of coding and working in the web development field. My first 
+        attempt to learn was with an online learning platform, Codecademy. I was so overwhelmed initially that I quickly gave up.</p>
 
-        <p>
-          To help me stay focused and accountable, before the boot camp, I set a
-          goal and kept a daily journal of my progress. My goal was to complete
-          the Full Stack Developer course on Codecademy. Starting with the Front
-          End Developer section, pausing my progress to build out my portfolio,
-          then resuming the Back End section while searching for a Front End
-          Developer position. I didn’t ultimately stick to this original plan. I
-          saw what I was doing wasn’t working, so halfway through it, I decided
-          to sign up for a boot camp.
-        </p>
+      <p>My desire to learn to code never went away though, so a little over a year later I was once again drawn back. This time I had a plan, I wasn't going to give up this time. In <b>June 2021</b> I restarted the little progress I had made in Codecademy 
+        and I decided to track my progress via a weekly journal to keep myself accountable and to demonstrate to myself how far I had come each week. I coded almost every single day for a full year. I spent roughly 23 weeks on the Codecademy online curriculum 
+        before deciding that I needed more, and guided, help. I enrolled in a coding bootcamp through the University of Texas at Dallas, taught by Fullstack Academy. That journal is below.</p>
 
-        <p>
-          I started my journey with a strict timeline to follow but adjusted and
-          shifted the goalposts as I figured out what worked and what didn’t.
-          Through it all, I never lost sight of the ultimate goal: Developing
-          and honing the necessary skills for a career change. Below is my
-          weekly journal through my first year!
-        </p>
+      <p>At the conclusion of my coding bootcamp in <b>June 2022</b> I felt ready to apply for a junior web developer role. As I started the search the web development field began to crash. I didn't realize at the time that this was a natural part of the job 
+        market cycle. I was discouraged and defeated by the job application process. I submitted over 500 resumes and heard back from two companies. One turned me down outright because I don't have a bachelor's degree, and the other turned me down because 
+        I'm not a "MacOS power user". My fellow bootcamp classmates weren't having much better luck than I was. Two people from my bootcamp had received job offers six months after the bootcamp concluded. By <b>January 2023</b>, a year and a half after 
+        starting in earnest, I gave up again.</p>
+
+      <p>However, once again, my desire to learn to code and to be a web developer never truly died. In <b>February 2025</b> I decided to pick it back up again. My goal this time would be to relearn what I forgot, then build on it with projects. It was also
+        important to me that I didn't put a timeline on it, do it simply because I want to. Once I felt that I was back up to speed I planned to apply for jobs and not allow myself to get hung up on the volume of applications and lack of replies. I would 
+        simply keep coding, stay in my lane, and focus on improving my skills and my portfolio, little by little.</p>
       </div>
 
       <div className="CodingJournal">
-        <h2>Coding Journal</h2>
+        <h2>Coding Journal</h2> 
+        <h3>June 2022 - December 2023</h3>
         <ul>
           <li>
             {" "}
@@ -49,7 +38,7 @@ const Blog = () => {
             and I spent time reading the first chapters in the two Jon Duckett
             books my curriculum recommended. (HTML & CSS Design and Build
             Websites - JavaScript and JQuery) <br />
-            <em>
+            <em id="Tracking">
               (6 hrs Total) (4% Codecademy Fullstack Developer course)
             </em>{" "}
           </li>
@@ -65,7 +54,7 @@ const Blog = () => {
             was also introduced to the art of understanding error messages and
             started doing daily knowledge checks with the CodecademyGo mobile
             app. <br />
-            <em>
+            <em id="Tracking">
               (29.5 hrs Total) (11% Codecademy Fullstack Developer course)
             </em>{" "}
           </li>
@@ -81,7 +70,7 @@ const Blog = () => {
             the week a challenge, but I powered through as best as I could. I
             found myself making more progress in the textbooks than in the
             actual Codecademy course. <br />
-            <em>
+            <em id="Tracking">
               (42.5 hrs Total) (15% Codecademy Fullstack Developer course)
             </em>{" "}
           </li>
@@ -96,7 +85,7 @@ const Blog = () => {
             chapters of my textbook and watch the CS50 Lecture Series on
             YouTube. By Sunday I had learned enough HTML and CSS to get a basic
             portfolio page up and hosted it on GitHub Pages. <br />
-            <em>
+            <em id="Tracking">
               (53.5 hrs Total) (22% Codecademy Fullstack Developer course)
             </em>{" "}
           </li>
@@ -112,7 +101,7 @@ const Blog = () => {
             of. I set myself up to be able to take full advantage of the long
             weekend, and read chapters in the textbooks to round out the week.{" "}
             <br />
-            <em>
+            <em id="Tracking">
               (63.5 hrs Total) (30% Codecademy Fullstack Developer course)
             </em>{" "}
           </li>
@@ -126,7 +115,7 @@ const Blog = () => {
             without any JavaScript. This week was largely about keeping the
             momentum going. Work was definitely taking my energy out of me but I
             wasn’t about to let anything stop me! <br />
-            <em>
+            <em id="Tracking">
               (74 hrs Total) (38% Codecademy Fullstack Developer course)
             </em>{" "}
           </li>
@@ -141,7 +130,7 @@ const Blog = () => {
             manipulating the DOM and how to create a React app locally. This
             week was all about working with classes in React, but towards the
             end of the week, I started to learn about hooks. <br />
-            <em>
+            <em id="Tracking">
               (85 hrs Total) (45% Codecademy Fullstack Developer course)
             </em>{" "}
           </li>
@@ -155,7 +144,7 @@ const Blog = () => {
             importing and exporting them accordingly. The second half of the
             week briefly covered Redux. I learned about states, actions,
             reducers, pure functions, and storing data in Redux. <br />
-            <em>
+            <em id="Tracking">
               (94 hrs Total) (51% Codecademy Fullstack Developer course)
             </em>{" "}
           </li>
@@ -174,7 +163,7 @@ const Blog = () => {
             Design courses. At this point in my journey, I felt it would be a
             good idea to create a couple of web apps in React for my portfolio.{" "}
             <br />
-            <em>
+            <em id="Tracking">
               (104 hrs Total) (56% Codecademy Fullstack Developer course)
             </em>{" "}
           </li>
@@ -313,7 +302,7 @@ const Blog = () => {
             for it, etc. I didn’t make as much progress as I had hoped, I found
             it a bit difficult to switch back to the courses from Youtubing and
             trial and error. <br />
-            <em>
+            <em  id="Tracking">
               (109 hrs Total) (58% Codecademy Fullstack Developer course)
             </em>{" "}
           </li>
@@ -327,7 +316,7 @@ const Blog = () => {
             and middleware. Towards the end of the week, I learned about the
             Testing Pyramid, Feature Testing, and Testing Driven Development
             (TDD). I finished off the week with an introduction to SQL. <br />
-            <em>
+            <em id="Tracking">
               (120 hrs Total) (64% Codecademy Fullstack Developer course)
             </em>{" "}
           </li>
@@ -338,7 +327,7 @@ const Blog = () => {
             <u>Week 20: Monday, October 18 - Sunday, October 24</u> <br />I had
             to travel this week for work, I don’t have a laptop (yet, I have one
             on the way). I made absolutely no progress this week. <br />
-            <em>
+            <em id="Tracking">
               (120 hrs Total) (64% Codecademy Fullstack Developer course)
             </em>{" "}
           </li>
@@ -353,7 +342,7 @@ const Blog = () => {
             to PostgreSQL for more advanced topics like ACID vs BASE and tuning
             and performance. There was a ton of reading this week but I was
             determined to make up for last week! <br />
-            <em>
+            <em id="Tracking">
               (133 hrs Total) (73% Codecademy Fullstack Developer course)
             </em>{" "}
           </li>
@@ -371,7 +360,7 @@ const Blog = () => {
             scratched the surface on those last topics though and will need to
             supplement them later! All in all a VERY full week, with a ton of
             reading. <br />
-            <em>
+            <em id="Tracking">
               (148 hrs Total) (95% Codecademy Fullstack Developer course)
             </em>{" "}
           </li>
@@ -388,7 +377,7 @@ const Blog = () => {
             the boot camp coming up. This marks the end of my Fullstack
             Developer course on Codecademy! I plan on taking the next couple of
             weeks to slow down and take a break before the boot camp. <br />
-            <em>
+            <em id="Tracking">
               (154 hrs Total) (100% Codecademy Fullstack Developer course)
             </em>{" "}
           </li>
@@ -404,7 +393,7 @@ const Blog = () => {
             We did manage to cover all of the HTML lessons and, I’m guessing, a
             third of the CSS lessons. The assignment at the end of the week was
             to create a portfolio page. <br />
-            <em>(Fullstack Academy Week 1 of 27)</em>{" "}
+            <em id="Tracking">(Fullstack Academy Week 1 of 27)</em>{" "}
           </li>
           <hr />
           <br />
@@ -416,7 +405,7 @@ const Blog = () => {
             we also covered some things I had not learned on my own. On the
             final day of the week, we covered the fundamentals of JS. So far, so
             good! <br />
-            <em>(Fullstack Academy Week 2 of 27)</em>{" "}
+            <em id="Tracking">(Fullstack Academy Week 2 of 27)</em>{" "}
           </li>
           <hr />
           <br />
@@ -429,7 +418,7 @@ const Blog = () => {
             redid the assignments/quizzes, and researched the gaps in my
             understanding when I found some. I even got a head start on the next
             graded project due in the first week of next year! <br />
-            <em>(Fullstack Academy Week 3 of 27)</em>{" "}
+            <em id="Tracking">(Fullstack Academy Week 3 of 27)</em>{" "}
           </li>
           <hr />
           <br />
@@ -441,7 +430,7 @@ const Blog = () => {
             Cipher project that is coming up. I was already starting to feel
             like I had made the right decision, this format was much more
             productive. <br />
-            <em>(Fullstack Academy Week 4 of 27)</em>{" "}
+            <em id="Tracking">(Fullstack Academy Week 4 of 27)</em>{" "}
           </li>
           <hr />
           <br />
@@ -456,7 +445,7 @@ const Blog = () => {
             is if you enter a sudoku puzzle, in array format, the validator
             would spit out whether or not the puzzle was completed correctly. I
             found it very challenging but I persevered! <br />
-            <em>(Fullstack Academy Week 5 of 27)</em>{" "}
+            <em id="Tracking">(Fullstack Academy Week 5 of 27)</em>{" "}
           </li>
           <hr />
           <br />
@@ -469,7 +458,7 @@ const Blog = () => {
             better about looping through objects. The project for this week was
             using a Markov Chain to write a poem. This week ended up being a
             really fun and challenging one. <br />
-            <em>(Fullstack Academy Week 6 of 27)</em>{" "}
+            <em id="Tracking">(Fullstack Academy Week 6 of 27)</em>{" "}
           </li>
           <hr />
           <br />
@@ -482,7 +471,7 @@ const Blog = () => {
             GitHub. The project for the week was a guessing game that I should
             have showcased in my projects section if you would like to take a
             look! <br />
-            <em>(Fullstack Academy Week 7 of 27)</em>{" "}
+            <em id="Tracking">(Fullstack Academy Week 7 of 27)</em>{" "}
           </li>
           <hr />
           <br />
@@ -497,7 +486,7 @@ const Blog = () => {
             really blown up 8-bit art. The homework for this week is actually
             due next week, I’ll be making the game snake, check it out in my
             projects section! <br />
-            <em>(Fullstack Academy Week 8 of 27)</em>{" "}
+            <em id="Tracking">(Fullstack Academy Week 8 of 27)</em>{" "}
           </li>
           <hr />
           <br />
@@ -511,7 +500,7 @@ const Blog = () => {
             relatively short coding career. By the end of the week, I had a
             fully functioning Snake game with bonus features! Check out my
             projects page for more! <br />
-            <em>(Fullstack Academy Week 9 of 27)</em>{" "}
+            <em id="Tracking">(Fullstack Academy Week 9 of 27)</em>{" "}
           </li>
           <hr />
           <br />
@@ -524,7 +513,7 @@ const Blog = () => {
             of puppies and allows you to create your own or delete an existing
             one. It was surprisingly more challenging than I expected and was
             our first group project. <br />
-            <em>(Fullstack Academy Week 10 of 27)</em>{" "}
+            <em id="Tracking">(Fullstack Academy Week 10 of 27)</em>{" "}
           </li>
           <hr />
           <br />
@@ -536,7 +525,7 @@ const Blog = () => {
             transitioned into React! It was a big week. I’m very grateful this
             wasn’t my first time seeing React, and because it wasn’t, the
             lessons and labs went relatively smoothly. <br />
-            <em>(Fullstack Academy Week 11 of 27)</em>{" "}
+            <em id="Tracking">(Fullstack Academy Week 11 of 27)</em>{" "}
           </li>
           <hr />
           <br />
@@ -548,7 +537,7 @@ const Blog = () => {
             and props and so much more. This week’s project was another two-week
             one. We were tasked with making a research web app using a Harvard
             art history API. <br />
-            <em>(Fullstack Academy Week 12 of 27)</em>{" "}
+            <em id="Tracking">(Fullstack Academy Week 12 of 27)</em>{" "}
           </li>
           <hr />
           <br />
@@ -560,7 +549,7 @@ const Blog = () => {
             fetch calls to an API. It was definitely the most challenging
             project we’ve done yet! Check it out on my projects page, it’s
             called Art Collector! <br />
-            <em>(Fullstack Academy Week 13 of 27)</em>{" "}
+            <em id="Tracking">(Fullstack Academy Week 13 of 27)</em>{" "}
           </li>
           <hr />
           <br />
@@ -574,7 +563,7 @@ const Blog = () => {
             and most of each class period for this assignment. By the end of the
             week, we had made really good progress and were starting to work on
             authentication and account creation. <br />
-            <em>(Fullstack Academy Week 14 of 27)</em>{" "}
+            <em id="Tracking">(Fullstack Academy Week 14 of 27)</em>{" "}
           </li>
           <hr />
           <br />
@@ -586,7 +575,7 @@ const Blog = () => {
             made a lot of progress in each class, mostly working with the
             provided API. Check it out on my projects page, Stranger’s Things!{" "}
             <br />
-            <em>(Fullstack Academy Week 15 of 27)</em>{" "}
+            <em id="Tracking">(Fullstack Academy Week 15 of 27)</em>{" "}
           </li>
           <hr />
           <br />
@@ -600,7 +589,7 @@ const Blog = () => {
             were also tasked with handling erroneous routes. All in all, it was
             a very small and simple project, meant to get our feet wet using
             Node and Express. <br />
-            <em>(Fullstack Academy Week 16 of 27)</em>{" "}
+            <em id="Tracking">(Fullstack Academy Week 16 of 27)</em>{" "}
           </li>
           <hr />
           <br />
@@ -611,7 +600,7 @@ const Blog = () => {
             tables, and seed data. We practiced manipulating data both in the
             CLI and VSCode with javascript. It was a lot more challenging than
             it should have been due to PC issues during setup. <br />
-            <em>(Fullstack Academy Week 17 of 27)</em>{" "}
+            <em id="Tracking">(Fullstack Academy Week 17 of 27)</em>{" "}
           </li>
           <hr />
           <br />
@@ -623,7 +612,7 @@ const Blog = () => {
             functioning and usable API! The project was very basic and nothing
             of actual value was stored but I enjoyed it, it was challenging and
             fun! <br />
-            <em>(Fullstack Academy Week 18 of 27)</em>{" "}
+            <em id="Tracking">(Fullstack Academy Week 18 of 27)</em>{" "}
           </li>
           <hr />
           <br />
@@ -635,7 +624,7 @@ const Blog = () => {
             We started off by covering how to write tests and how they work.
             Then we were assigned a list of tests to try to solve ourselves
             using PostgreSQL and JavaScript. <br />
-            <em>(Fullstack Academy Week 19 of 27)</em>{" "}
+            <em id="Tracking">(Fullstack Academy Week 19 of 27)</em>{" "}
           </li>
           <hr />
           <br />
@@ -647,7 +636,7 @@ const Blog = () => {
             build a fitness tracking web app. We were given two weeks to
             complete the back end, then one to complete the front end. By the
             end of week one, we were almost done with the back end! <br />
-            <em>(Fullstack Academy Week 20 of 27)</em>{" "}
+            <em id="Tracking">(Fullstack Academy Week 20 of 27)</em>{" "}
           </li>
           <hr />
           <br />
@@ -658,7 +647,7 @@ const Blog = () => {
             completed just in time for the turn-in. Now the clock starts on the
             front-end functionality, pulling it all together. We have until next
             week to get it done! <br />
-            <em>(Fullstack Academy Week 21 of 27)</em>{" "}
+            <em id="Tracking">(Fullstack Academy Week 21 of 27)</em>{" "}
           </li>
           <hr />
           <br />
@@ -670,7 +659,7 @@ const Blog = () => {
             correctly, an office hour later and the team and I got it figured
             out and submitted! It doesn’t look the best but it works as
             expected, and we take those. <br />
-            <em>(Fullstack Academy Week 22 of 27)</em>{" "}
+            <em id="Tracking">(Fullstack Academy Week 22 of 27)</em>{" "}
           </li>
           <hr />
           <br />
@@ -682,7 +671,7 @@ const Blog = () => {
             Amazon-clone and capstone project for the boot camp. By the end of
             the week, my group had the back end mostly set up except for a few
             tables that we plan on creating as we need them. <br />
-            <em>(Fullstack Academy Week 23 of 27)</em>{" "}
+            <em id="Tracking">(Fullstack Academy Week 23 of 27)</em>{" "}
           </li>
           <hr />
           <br />
@@ -694,7 +683,7 @@ const Blog = () => {
             wasn’t. We worked together, as a team, figured out our issues, and
             pushed forward. We didn’t make as much progress as we had hoped but
             we made meaningful progress nonetheless! <br />
-            <em>(Fullstack Academy Week 24 of 27)</em>{" "}
+            <em id="Tracking">(Fullstack Academy Week 24 of 27)</em>{" "}
           </li>
           <hr />
           <br />
@@ -705,7 +694,7 @@ const Blog = () => {
             completely wrapped up the back-end code, actually this time, and
             started putting it together on the front end. All in all a very fun
             and productive week! <br />
-            <em>(Fullstack Academy Week 25 of 27)</em>{" "}
+            <em id="Tracking">(Fullstack Academy Week 25 of 27)</em>{" "}
           </li>
           <hr />
           <br />
@@ -716,7 +705,7 @@ const Blog = () => {
             would have liked as a group, but progress all the same. We’re very
             close to finishing up! This week marks my official one-year
             anniversary from when I started on this path! <br />
-            <em>(Fullstack Academy Week 26 of 27)</em>{" "}
+            <em id="Tracking">(Fullstack Academy Week 26 of 27)</em>{" "}
           </li>
           <hr />
           <br />
@@ -729,19 +718,18 @@ const Blog = () => {
             show off. So we did just that, buttoned up a few things, recorded
             the presentation for graduation, and showed it off at graduation.
             That’s it. Boot camp over. <br />
-            <em>(Fullstack Academy Week 27 of 27)</em>{" "}
+            <em id="Tracking">(Fullstack Academy Week 27 of 27)</em>{" "}
           </li>
           <hr />
           <br />
           <li>
             {" "}
             <u>Final Word</u> <br />
-            There it is, my first full year of learning to code. Except for that
-            3-week break before the boot camp started, I spent hours almost
-            every single day for a year working towards this goal. There is
-            still much to learn and I still have big goals I want to achieve,
-            I’m still moving forward and I can’t wait to help a professional
-            team in the very near future!{" "}
+            There it is, my first full year of learning to code. Except for that 
+            3 week break before the boot camp started, I spent hours almost every 
+            single day for a year working towards this goal. There is still much 
+            to learn and I still have big goals I want to achieve, I’m still moving 
+            forward and I can’t wait to work on a team in the very near future!{" "}
           </li>
         </ul>
       </div>
