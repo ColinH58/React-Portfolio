@@ -36,13 +36,13 @@ const Resume = () => {
           <li>
           I am currently a Workplace Coordinator for Autodesk, Inc in Denver, CO. My current 
           employment background consists of experience in construction (sheet metal), payroll, 
-          facilities, and general office support. I am eager to start my next chapter in web 
+          facilities, general office support, and retail. I am eager to start my next chapter in web 
           development!
           </li>
           <br />
           <li>
-          I am originally from Calgary, Alberta, Canada. I'm a dual citizen of Canada and the USA. 
-          I was naturalized in Irving, Texas in the summer of 2011. I moved to Denver, Colorado in 2024.
+          I am originally from Calgary, Alberta, Canada. I'm a dual citizen of Canada and the United States. 
+          I was naturalized in Irving, TX in the summer of 2011. I moved to Denver, CO in 2024.
           </li>
         </ul>
         <hr />
