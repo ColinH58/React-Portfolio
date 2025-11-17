@@ -27,7 +27,7 @@ const Resume = () => {
         </h1>
         <ul>
           <li>
-          I am an aspiring web developer based in Denver, Colorado. I have completed 
+          I am an aspiring INDIE GAME developer based in Denver, Colorado. I have completed 
           a boot camp with Fullstack Academy in <b>June 2022</b>, hosted by the 
           University of Texas at Dallas. Please find my projects, and other information 
           about me, in the tabs above.
