@@ -7,24 +7,26 @@ const Blog = () => {
         <Navbar />
       <div className="AboutSetup">
         <h2>My Coding Journey</h2>
-        <p>I've been learning to code off and on since <b>February 2020</b>. When I found myself suddenly stuck at home I had the perfect excuse to learn to code. I've always been drawn to the idea of coding and working in the web development field. My first 
+          <p>Things are changing, more news coming soon!</p>
+
+          {/* <p>I've been learning to code off and on since <b>February 2020</b>. When I found myself suddenly stuck at home I had the perfect excuse to learn to code. I've always been drawn to the idea of coding and working in the web development field. My first 
         attempt to learn was with an online learning platform, Codecademy. I was so overwhelmed initially that I quickly gave up.</p>
 
-      <p>My desire to learn to code never went away though, so a little over a year later I was once again drawn back. This time I had a plan, I wasn't going to give up this time. In <b>June 2021</b> I restarted the little progress I had made in Codecademy 
+          <p>My desire to learn to code never went away though, so a little over a year later I was once again drawn back. This time I had a plan, I wasn't going to give up this time. In <b>June 2021</b> I restarted the little progress I had made in Codecademy 
         and I decided to track my progress via a weekly journal to keep myself accountable and to demonstrate to myself how far I had come each week. I coded almost every single day for a full year. I spent roughly 23 weeks on the Codecademy online curriculum 
         before deciding that I needed more, and guided, help. I enrolled in a coding bootcamp through the University of Texas at Dallas, taught by Fullstack Academy. That journal is below.</p>
 
-      <p>At the conclusion of my coding bootcamp in <b>June 2022</b> I felt ready to apply for a junior web developer role. As I started the search the web development field began to crash. I didn't realize at the time that this was a natural part of the job 
+          <p>At the conclusion of my coding bootcamp in <b>June 2022</b> I felt ready to apply for a junior web developer role. As I started the search the web development field began to crash. I didn't realize at the time that this was a natural part of the job 
         market cycle. I was discouraged and defeated by the job application process. I submitted over 500 resumes and heard back from two companies. One turned me down outright because I don't have a bachelor's degree, and the other turned me down because 
         I'm not a "MacOS power user". My fellow bootcamp classmates weren't having much better luck than I was. Two people from my bootcamp had received job offers six months after the bootcamp concluded. By <b>January 2023</b>, a year and a half after 
         starting in earnest, I gave up again.</p>
 
-      <p>However, once again, my desire to learn to code and to be a web developer never truly died. In <b>February 2025</b> I decided to pick it back up again. My goal this time would be to relearn what I forgot, then build on it with projects. It was also
+          <p>However, once again, my desire to learn to code and to be a web developer never truly died. In <b>February 2025</b> I decided to pick it back up again. My goal this time would be to relearn what I forgot, then build on it with projects. It was also
         important to me that I didn't put a timeline on it, do it simply because I want to. Once I felt that I was back up to speed I planned to apply for jobs and not allow myself to get hung up on the volume of applications and lack of replies. I would 
-        simply keep coding, stay in my lane, and focus on improving my skills and my portfolio, little by little.</p>
+        simply keep coding, stay in my lane, and focus on improving my skills and my portfolio, little by little.</p> */}
       </div>
 
-      <div className="CodingJournal">
+      {/* <div className="CodingJournal">
         <h2>Coding Journal</h2> 
         <h3>June 2022 - December 2023</h3>
         <ul>
@@ -732,7 +734,7 @@ const Blog = () => {
             forward and I can’t wait to work on a team in the very near future!{" "}
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 };

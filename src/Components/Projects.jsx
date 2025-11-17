@@ -11,23 +11,6 @@ const Projects = () => {
         <ul style={{ listStyleType: "none" }}>
           {/* <li>
             <a
-              href="https://github.com/ColinH58/Weather-App"
-              rel="noreferrer"
-              target="_blank"
-            >
-              COMING SOON: <br></br>
-              Weather App (OpenWeatherMap API)
-            </a>
-            <UilReact className="Icon" />
-            <p style={{ fontSize: "1rem" }}>
-              This is my first project after graduating from Fullstack
-              Academy. This weather app, made in <strong>React</strong>, uses
-              the OpenWeatherMap API and the Luxon API to allow you to search
-              the local weather anywhere on the planet.
-            </p>
-          </li> */}
-          <li>
-            <a
               href="https://colin-hoolwerf-art-collector.netlify.app/"
               rel="noreferrer"
               target="_blank"
@@ -76,7 +59,7 @@ const Projects = () => {
               you're ready to. This starter project was built in{" "}
               <strong>React</strong>.
             </p>
-          </li>
+          </li> */}
           <li>
             <a
               href="https://colin-hoolwerf-snake.netlify.app/"
@@ -87,7 +70,7 @@ const Projects = () => {
             </a>
             <UilJavaScript className="Icon" />
             <p style={{ fontSize: "1rem" }}>
-              Another project from the Fullstack Academy Bootcamp curriculum.
+              A project from my Fullstack Academy Bootcamp curriculum and my 3rd game.
               This is the classic Snake game made in <strong>JavaScript</strong>
               . Eat the red square to grow while avoiding your tail and the
               walls. I added a difficulty slider to increase the Snake speed, as
@@ -105,7 +88,7 @@ const Projects = () => {
             </a>
             <UilJavaScript className="Icon" />
             <p style={{ fontSize: "1rem" }}>
-              Another project from the Fullstack Academy Bootcamp curriculum. In
+              Another project from the Fullstack Academy Bootcamp curriculum and my 2nd game. In
               this game, made with <strong>JavaScript</strong>, you are given 5
               chances to guess a randomly generated number. I added hints that
               change dynamically with every guess. I also added a hint button
@@ -123,7 +106,7 @@ const Projects = () => {
             </a>
             <UilJavaScript className="Icon" />
             <p style={{ fontSize: "1rem" }}>
-              My very first solo project, made before my bootcamp. This is a
+              My very first solo project, made before my bootcamp, and my first game. This is a
               very basic and simplified version of BlackJack, made in{" "}
               <strong>JavaScript</strong>. I added "AI" that plays by the same
               rules a dealer in a casino would.
