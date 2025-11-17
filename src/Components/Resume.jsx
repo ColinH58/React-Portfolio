@@ -22,11 +22,11 @@ const Resume = () => {
         <hr />
       </div>
       <div className="AboutSection">
-        <h1>
+        <p>Changes on coming soon!</p>
+        {/* <h1>
           <u>About</u>
         </h1>
-        <p>Changes on coming soon!</p>
-        {/* <ul>
+        <ul>
           <li>
           I am an aspiring INDIE GAME developer based in Denver, Colorado. I have completed 
           a boot camp with Fullstack Academy in <b>June 2022</b>, hosted by the 
