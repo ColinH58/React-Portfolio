@@ -1,7 +1,7 @@
 /* eslint-disable array-callback-return */
 import React from "react";
 import { Link } from "react-router-dom";
-import { UilDocumentLayoutLeft, UilReact, UilEnvelopes } from '@iconscout/react-unicons';
+import { UilDocumentLayoutLeft, UilFileAlt, UilReact, UilEnvelopes } from '@iconscout/react-unicons';
 
 const Home = () => {
   const links = [
@@ -12,13 +12,13 @@ const Home = () => {
       icon: <UilDocumentLayoutLeft className="IconHomePage" />,
       display: true,
     },
-    // {
-    //   key: "Resume",
-    //   route: "/Resume",
-    //   ph: "Resume",
-    //   icon: <UilFileAlt className="IconHomePage" />,
-    //   display: true,
-    // },
+    {
+      key: "Resume",
+      route: "/Resume",
+      ph: "Resume",
+      icon: <UilFileAlt className="IconHomePage" />,
+      display: true,
+    },
     {
       key: "Projects",
       route: "/Projects",

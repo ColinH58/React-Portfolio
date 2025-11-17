@@ -25,7 +25,8 @@ const Resume = () => {
         <h1>
           <u>About</u>
         </h1>
-        <ul>
+        <p>Changes on coming soon!</p>
+        {/* <ul>
           <li>
           I am an aspiring INDIE GAME developer based in Denver, Colorado. I have completed 
           a boot camp with Fullstack Academy in <b>June 2022</b>, hosted by the 
@@ -95,7 +96,7 @@ const Resume = () => {
             <h2>Fullstack Academy</h2>
               <h4>Fullstack Web Development Bootcamp Certificate</h4>
             <h2>Eastfield College</h2>
-              <h4>Associate of Arts and Sciences (AAS), Biology</h4>
+              <h4>Associate of Arts and Sciences (AAS), Biology</h4> */}
       </div>
     </div>
   );
