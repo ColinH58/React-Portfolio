@@ -1,7 +1,7 @@
 /* eslint-disable array-callback-return */
 import React from "react";
 import { Link } from "react-router-dom";
-import { UilDocumentLayoutLeft, UilFileAlt, UilReact, UilEnvelopes } from '@iconscout/react-unicons';
+import { UilDocumentLayoutLeft, UilReact, UilEnvelopes } from '@iconscout/react-unicons';
 
 const Home = () => {
   const links = [
