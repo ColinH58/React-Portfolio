@@ -12,13 +12,13 @@ const Home = () => {
       icon: <UilDocumentLayoutLeft className="IconHomePage" />,
       display: true,
     },
-    {
-      key: "Resume",
-      route: "/Resume",
-      ph: "Resume",
-      icon: <UilFileAlt className="IconHomePage" />,
-      display: true,
-    },
+    // {
+    //   key: "Resume",
+    //   route: "/Resume",
+    //   ph: "Resume",
+    //   icon: <UilFileAlt className="IconHomePage" />,
+    //   display: true,
+    // },
     {
       key: "Projects",
       route: "/Projects",
