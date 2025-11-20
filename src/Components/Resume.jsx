@@ -22,7 +22,7 @@ const Resume = () => {
         <hr />
       </div>
       <div className="AboutSection">
-        <p>Changes on coming soon!</p>
+        <p>Changes coming soon!</p>
         {/* <h1>
           <u>About</u>
         </h1>
